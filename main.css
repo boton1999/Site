@@ -1,0 +1,117 @@
+body {
+  background: #000000;
+  color: #ffffff;
+  padding: 0;
+  margin: 0;
+}
+
+div,
+p,
+a,
+form,
+button {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+ul,
+li {
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+}
+
+.menu li {
+  font-size: 20px;
+  margin-right: 25px;
+}
+
+.menu li a {
+  padding: 30px 0;
+  transition: all 0.5s ease;
+}
+.menu {
+  display: flex;
+  margin-left: 160px;
+}
+
+.phone {
+  font-size: 20px;
+  margin-left: auto;
+  transition: all 0.5s ease;
+}
+
+.menu a:hover {
+  font-size: 30px;
+  color: blue;
+  border-top: 1px solid blue;
+  border-bottom: 1px solid blue;
+}
+
+.phone:hover {
+  font-size: 30px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+  margin: 0;
+}
+
+.ofer-content h1 {
+  font-size: 40px;
+}
+.ofer-content p {
+  font-size: 20px;
+  margin-top: 15px;
+  font-weight: 200;
+}
+.ofer-content a {
+  background: yellow;
+  color: #000000;
+  font-size: 20px;
+  font-weight: 900;
+  width: 220px;
+  display: block;
+  text-align: center;
+  padding: 17px 0;
+  margin-top: 50px;
+  transition: all 0.5s ease;
+}
+.ofer-content a:hover {
+  background: chocolate;
+  font-size: 30px;
+}
+.triangels {
+  width: 350px;
+  height: 479px;
+  margin-left: auto;
+  margin-right: 100px;
+}
+.offer {
+  display: flex;
+  margin-top: 100px;
+  align-items: center;
+}
